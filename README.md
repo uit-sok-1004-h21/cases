@@ -1,6 +1,6 @@
 # uit-sok-1004-h21
 
-R kode til kurset:
+Ressurser til kurset:
 
-SOK-1004 ØKONOMISKE EMNER OG PROGRAMMERING - 15 STP
+SOK-1004 Ã˜KONOMISKE EMNER OG PROGRAMMERING - 15 STP
 
