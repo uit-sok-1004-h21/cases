@@ -4,5 +4,5 @@ Her er lenkene til de ulike casene.
 
 [Case 1a R code download](case_1a_bnp.R)
 
-[Case 1a R code github]()
+[Case 1a R code github](https://github.com/oysteinm/uit-sok-1004-h21/blob/main/case_1a_bnp.R){:target="_blank"}
 
