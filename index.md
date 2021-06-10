@@ -1,3 +1,7 @@
+{% include top.html %}
+<!--For å endre fagtittel, fagundertittel, bakgrunn og fagbilde gjør endringer i config.yml->
+<!--Gjør endringer under her-->
+
 Her er lenkene til de ulike casene.
 
 [Case 1a html file](case_1a_bnp.html){:target="blank"}
@@ -12,4 +16,5 @@ Her er lenkene til de ulike casene.
 
 [Case 1b R code github](https://github.com/oysteinm/uit-sok-1004-h21/blob/main/case_1b_bnp_historisk.R){:target="blank"}
 
-
+<!--Gjør endringer over her-->
+{% include bottom.html %}
