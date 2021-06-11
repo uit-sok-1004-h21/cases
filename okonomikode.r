@@ -28,11 +28,14 @@ confint(mod1)
 #b
 mod1 <- lm(miles ~ income + age + kids, data = vacation)
 summary(mod1)
-mod1 %>% augment() %>% select(.resid, income) %>% ggplot(aes(x=income,y=abs(.resid))) + geom_point(col="darkgreen") +
+mod1 %>%
+augment() %>%
+select(.resid, income) %>% ggplot(aes(x=income,y=abs(.resid))) + geom_point(col="darkgreen") +
   ggtitle(": OLS residuals versus income") +
   xlab("Income is measured in $1000") + ylab(expression(abs(phantom(x)*hat(e)[i]*phantom(x)))) +
   theme_classic()
-mod1 %>% augment() %>% select(.resid, age) %>% ggplot(aes(x=age,y=abs(.resid))) + geom_point(col="darkgreen") +
+mod1 %>%
+augment() %>% select(.resid, age) %>% ggplot(aes(x=age,y=abs(.resid))) + geom_point(col="darkgreen") +
   ggtitle(": OLS residuals versus age") +
   xlab("age") + ylab(expression(abs(phantom(x)*hat(e)[i]*phantom(x)))) +
   theme_classic()
