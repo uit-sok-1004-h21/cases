@@ -40,7 +40,7 @@ tabell <-
          BNP_endring=na_if(BNP_endring, ""),
          BNP_percap_endring=na_if(BNP_percap_endring, ""),
          BNP_endring=str_replace(BNP_endring, ",","."),
-         BNP_percap_endring=str_replace(BNP_percap_endring, ",",".")) %>% 
+         BNP_percap_endring=str_replace_all(BNP_percap_endring, ",",".")) %>% 
   mutate_if(is.character, as.numeric)
 
 tabell
